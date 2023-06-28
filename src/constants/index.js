@@ -13,9 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -42,19 +39,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "python language",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Knowlage in Backend",
     icon: creator,
   },
 ];
@@ -104,20 +101,12 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Excellent Software Solutions",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,8 +118,8 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "React.js Developer",
+    company_name: "Kabee Software Enterprise",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -143,23 +132,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: " Upwork Freelancer",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,41 +174,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Azmarino store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows Discover Azmario Online Shopping, the ultimate destination for authentic Habesha products. From traditional Ethiopian and Eritrean clothing to spices and food, it offers a diverse selection that celebrates the rich heritage of Habesha culture.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/siru-kid/Habesha_ecommerce_with_stripe",
   },
   {
-    name: "Job IT",
+    name: "WeatherMate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " WeatherMate provides you with essential weather information. From current conditions to hourly and extended forecasts, WeatherMate ensures you stay prepared for any weather situation. Download now and make WeatherMate your ultimate weather companion.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "gensync",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "json5",
         color: "pink-text-gradient",
       },
     ],
@@ -240,9 +217,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "adiss-cupcake's",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " your ultimate online destination for heavenly cakes. Indulge in a diverse selection of flavors, from classic chocolate to exotic lavender.Order conveniently through our user-friendly platform and have your cakes delivered fresh to your doorstep. Experience the magic of Adiss Cupcakes today!",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +235,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/siru-kid/Adiss_Cupcakes",
   },
 ];
 
